@@ -1,8 +1,12 @@
-# React + Vite
+# Add a node - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This challenge allows you to add more nodes between each existing node. Hover the middle of the intersection and a background color will pop up. 
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screen Shot 2023-10-02 at 11 25 06 AM](https://github.com/LucasCraveiro/AddNode/assets/32401792/1d7b925d-24fd-4cb2-91ec-8365d71971bc)
+
+## Run the App
+
+```npm intall```<br/>
+<br/>
+```npm run dev```
