@@ -1,0 +1,84 @@
+body {
+  background-color: black;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  overflow-y: scroll;
+}
+
+.title {
+  color: white;
+}
+
+.cardParent {
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.input {
+  width: 40px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.finalText {
+  color: white;
+  font-size: 30px;
+  padding: 1rem;
+  border: 1px dashed white;
+}
+
+.hiddenElem {
+  width: 40px;
+  height: 200px;
+  position: absolute;
+  right: -20px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.hiddenElem:is(:hover) {
+  background-color: rgba(175, 175, 175, 0.6);
+}
+
+@media only screen and (max-width: 992px) {
+  .cell {
+    width: 100px;
+    height: 100px;
+  }
+
+  .hiddenElem {
+    width: 40px;
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .cell {
+    width: 70px;
+    height: 70px;
+  }
+
+  .hiddenElem {
+    width: 40px;
+    height: 70px;
+  }
+}
